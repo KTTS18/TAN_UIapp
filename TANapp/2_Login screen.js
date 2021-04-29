@@ -22,8 +22,8 @@ export default class Example extends Component {
                 <Text style={styles.text}>Log In</Text>
               </TouchableOpacity>
               
-              <TouchableOpacity style={styles.btnSighin}>
-                <Text style={styles.textSing}>Sigh Up</Text>
+              <TouchableOpacity style={styles.btnSignin}>
+                <Text style={styles.textSing}>Sign Up</Text>
               </TouchableOpacity>
 
           </ImageBackground>
@@ -38,9 +38,10 @@ const styles = StyleSheet.create ({
     borderRadius : 25,
     backgroundColor :'#2196F3',
     justifyContent : 'center',
-    marginTop : 20
+    marginTop : 20,
+    marginVertical : 15
   },
-  btnSighin : {
+  btnSignin : {
     width : 200,
     height : 45,
     borderRadius : 25,
@@ -66,10 +67,12 @@ const styles = StyleSheet.create ({
     alignItems: 'center'
   },
   logoContainer: {
-    alignItems: 'center'
+    alignItems: 'center',
+    marginVertical : 60
   },
   logo : {
-    width: 200,
-    height: 200
+    width: 220,
+    height: 220,
+    marginTop : -120
   }
 });

@@ -15,7 +15,7 @@ export default class Example extends Component  {
           <View style={styles.bg}>
                 <View style={styles.container}>
                       <View style={styles.Header}>
-                            <Text style={styles.text_Header}>Login</Text>
+                            <Text style={styles.text_Header}>LOGIN</Text>
                       </View>  
                                 
                       <View style={styles.text_h}> 
@@ -29,7 +29,7 @@ export default class Example extends Component  {
                       </View>
                       
                       <TouchableOpacity style={styles.btnSighin}>
-                            <Text style={styles.textSing}>Sigh in</Text>
+                            <Text style={styles.textSing}>Sign in</Text>
                       </TouchableOpacity>    
                 </View>
         </View>
@@ -48,7 +48,7 @@ const styles = StyleSheet.create ({
     paddingHorizontal:16,
     fontSize:16,
     color:'#ffffff',
-    marginVertical: 15
+    marginVertical: 15,
   },
   btnSighin : {
     width : 120,
@@ -77,7 +77,8 @@ const styles = StyleSheet.create ({
   Header : {
     color:'#000000',
     fontWeight:'bold',
-    marginVertical:100
+    marginVertical:100,
+    marginTop : 110
   },
   text_fg :{
     paddingHorizontal:5,
@@ -85,6 +86,7 @@ const styles = StyleSheet.create ({
     color:'#000',
   },
   bg:{
-    backgroundColor: '#ffffff'
+    backgroundColor: '#ffffff',
+    marginTop : -25
   }
 });

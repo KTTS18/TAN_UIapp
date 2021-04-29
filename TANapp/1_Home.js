@@ -33,7 +33,7 @@ const styles = StyleSheet.create ({
       alignItems: 'center'
     },
     logo: {
-      width: 200,
-      height: 120
+      width: 260,
+      height: 100
     }  
 });

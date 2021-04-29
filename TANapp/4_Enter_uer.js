@@ -15,26 +15,31 @@ export default class Example extends Component  {
           <View style={styles.bg}>
                 <View style={styles.container}>
                       <View style={styles.Header}>
-                            <Text style={styles.text_Header}>SIGN UP</Text>
+                            <Text style={styles.text_Header}>Select your user</Text>
                       </View>  
                                 
                       <View style={styles.text_h}> 
-                            <Text style={styles.text_bar}>Username</Text>
+                            <Text style={styles.text_bar}>Firstname</Text>
                             <TextInput style={styles.inputBox}/>
                       </View>
 
                       <View style={styles.text_h}> 
-                            <Text style={styles.text_bar}>E-mail</Text>
+                            <Text style={styles.text_bar}>Lastname</Text>
                             <TextInput style={styles.inputBox}/>
                       </View>  
                       
                       <View style={styles.text_h}>
-                            <Text style={styles.text_bar}>Password</Text>
+                            <Text style={styles.text_bar}>Age</Text>
+                            <TextInput style={styles.inputBox}/>
+                      </View>
+                      
+                      <View style={styles.text_h}>
+                            <Text style={styles.text_bar}>Gender</Text>
                             <TextInput style={styles.inputBox}/>
                       </View>
                       
                       <TouchableOpacity style={styles.btnca}>
-                            <Text style={styles.textca}>create Account</Text>
+                            <Text style={styles.textca}>Enter</Text>
                       </TouchableOpacity>    
                 </View>
         </View>
@@ -60,7 +65,7 @@ const styles = StyleSheet.create ({
     height : 45,
     borderRadius : 25,
     backgroundColor :'#2196F3',
-    marginVertical : 70
+    marginVertical : 30
   },
   textca : {
     fontSize:16,
@@ -76,13 +81,13 @@ const styles = StyleSheet.create ({
   },
   text_Header : {
     color:'#000',
-    fontWeight:'bold',
-    fontSize:45
+    fontWeight:'300',
+    fontSize:30
   },
   Header : {
     color:'#000000',
     fontWeight:'bold',
-    marginVertical:50
+    marginVertical:40
   },
   text_fg :{
     paddingHorizontal:5,
